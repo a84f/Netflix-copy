@@ -156,7 +156,7 @@ nav button {
 
 .secImg img {
     padding-top: 10px;
-    width: 41.2vw;
+    width: 515px;
     position: relative;
     z-index: 10;
 }
@@ -164,7 +164,7 @@ nav button {
 .secImg video {
     position: absolute;
     top: 81.5px;
-    right: 74.2px;
+    right: 70.2px;
     width: 30vw;
 }
 section.first>div{
@@ -180,4 +180,55 @@ section.first > div :nth-child(1){
 section.first > div :nth-child(2)
 {
     font-size: 15px;
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+    font-size: 24px;
+}
+.faqbox:hover{
+background-color: rgb(70, 70, 70);
+}
+.faqbox svg{
+    filter: invert(1);
+}
+.faqbox{
+    transition: all 0.3s ease-out;
+display: flex;
+justify-content: space-between;
+background-color: #292828;
+padding: 24px;
+max-width: 75vw;
+margin: 10px auto;
+cursor: pointer;
+}
+footer {
+    color: white;
+    max-width: 60vw;
+margin: auto;
+padding: 14px;
+}
+footer .questions
+{
+    padding: 34px 0;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+color: white;
+}
+.footer a{
+    font-size: 12px;
+    color: white;
+}
+.footer-items{
+
+display: flex;
+flex-direction: column;
+gap:23px;
 }
